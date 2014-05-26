@@ -1,19 +1,6 @@
 <!DOCTYPE html><html class=no-js><head><meta charset=utf-8><title>Sudoku</title><meta name=description content=""><meta name=viewport content="width=device-width"><link rel="shortcut icon" href=/6df2b309.favicon.ico><!-- Place favicon.ico and apple-touch-icon.png in the root directory --><link rel=stylesheet href=styles/d05b3b9a.main.css><script src=scripts/vendor/c9ea6662.modernizr.js></script><body><!--[if lt IE 10]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--><script src=scripts/4776dee8.vendor.js></script><script type=text/javascript>var gameBoard = {
-      easy: [
-        '057081002030000000000500040304070580290000037075040206040008000000000090900410370',
-        '000000002609704000082500043300002500000806000005900006740008120000207604900000000',
-        '500030000210004300034700800743060002009020500800070634008009250005300091000050008',
-        '502001000000000040030080007200009078800107003470300002300070080090000000000600504',
-        '000001809187090300906480007010009000009020400000300010300074206004050731708600000',
-        '500700009000200340000005120010040608009000400405060010051900000094002000700003004',
-        '000700860100200040000485000003009670009000400075300900000974000090002001028003000',
-        '007000060630000801080500000004070589001050400875040200000008020508000094020000300'
-      ]
-    };
-
-      $( document ).ready( function() {
+    <![endif]--><script src=scripts/4776dee8.vendor.js></script><script type=text/javascript>$( document ).ready( function() {
         var game = Sudoku.getInstance();
         $('#sudoku').append(game.getGameBoard())
           // Whenever a click happens on a TD,
